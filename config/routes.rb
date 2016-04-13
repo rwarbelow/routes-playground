@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+  
   # -------------------------- INSTRUCTIONS ------------------------------------
   # Below are some warmup route exercises. Read the instructions for each task, 
   # then implement underneath and check it out by starting up the server. 

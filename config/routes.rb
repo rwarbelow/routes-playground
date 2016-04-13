@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  
+
   # -------------------------- INSTRUCTIONS ------------------------------------
   # Below are some warmup route exercises. Read the instructions for each task, 
   # then implement underneath and check it out by starting up the server. 
@@ -25,28 +25,36 @@ Rails.application.routes.draw do
 
 
   # ------------ Task 2 ------------
+  # Uncomment the two lines that define resources for books and authors. 
   # You can define a root route using this syntax: `root 'controller#action'`.
   # Define a root so that when one visits localhost:3000, they see the index of all books.
   # Start up your server with `rails s` and try it out.
 
+  # resources :books
+  # resources :authors
 
 
 
 
   # ------------ Task 3 ------------
+  # Uncomment the two lines that define resources for books and authors. 
   # Look at the route below. 
   # get 'products/:id' => 'catalog#view'
   # This route customizes the controller and action that a certain route goes to.
   # Create a route so that I can navigate to '/writers/:id' and see a specific author.
   # Start up your server with `rails s` and try it out.
 
+  # resources :books
+  # resources :authors
 
 
 
 
 
   # ------------ Task 4 ------------
-  # Uncomment the thing below. What does it do? Why might you want to use it? 
+  # Uncomment the thing below. What does it do? Why might you want to use it?
+  # Look at the output of rake routes. You don't need to start up the server,
+  # as it will not work anyway :)  
 
   # resources :items do
   #   get 'what', to: 'items#what'
